@@ -12,7 +12,7 @@
           />
         </div>
         <div class="illustration flex middle">
-          <img src="https://ik.imagekit.io/alexborecky/CzechCon/vygruntujeme/illustration1_6o4KEWzF4lEpG.png" alt="">
+          <img src="https://ik.imagekit.io/alexborecky/CzechCon/vygruntujeme/hero-image_ngDY3IeJQLCU.svg" alt="">
         </div>
       </div>
       <div class="reviews hero flex column center">
