@@ -1,0 +1,61 @@
+* {
+    font-family: 'Poppins';
+}
+
+p, a {
+    letter-spacing: .4px;
+    font-size: 16px;
+    max-width: 680px;
+}
+
+p {
+    line-height: 24px;
+    color: rgba($color: $main-black, $alpha: .8);
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    max-width: 900px;
+    @media only screen and (max-width: 650px) {
+        font-size: 56px;
+    }
+}
+
+h2 {
+    font-size: 48px;
+    margin: 16px 0;
+    @media only screen and (max-width: 450px) {
+        font-size: 40px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: .3s ease-in-out;
+    &:hover {
+        color: $main-orange !important;
+    }
+}
+
+.bigger {
+    font-size: 24px;
+}
+
+h1, h2, h3, h4, h5 {
+    position: relative;
+    .underline {
+        width: 80px;
+        height: 8px;
+        background-color: $main-orange;
+        position: absolute;
+        bottom: -16px;
+        border-radius: 40px;
+    }
+}
