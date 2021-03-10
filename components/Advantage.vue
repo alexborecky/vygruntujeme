@@ -37,6 +37,20 @@
             font-weight: 400;
         }
     }
+    @media only screen and (max-width: 720px) {
+        flex-flow: column;
+        margin: 24px 0;
+        img {
+            max-height: 120px;
+            order: 1 !important;
+        }
+        .content {
+            text-align: center !important;
+        }
+        img {
+            margin: 24px 0;
+        }
+    }
 }
 
 </style>

@@ -17,8 +17,16 @@
                         <div class="underline"></div>
                     </nuxt-link>
                 </li>
+                <li>
+                    <a class="flex center" target="blank" href="https://vygruntujeme-eshop.cz">
+                        E-shop 
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 12L12 4" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.5 4H12V10.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </li>
             </ul>
-            <!-- <sideBar /> -->
         </div>
     </div>
 </template>
@@ -109,6 +117,17 @@ const OFFSET = 60
                 &:hover {
                     .underline {
                         width: 100%;
+                    }
+                    svg {
+                        path {
+                            stroke: $main-orange;
+                        }
+                    }
+                }
+                svg {
+                    margin-left: 8px;
+                    path {
+                        transition: .3s ease-in-out;
                     }
                 }
             }

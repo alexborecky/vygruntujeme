@@ -27,6 +27,11 @@
         font-weight: 600;
         margin-left: 16px;
     }
+    @media only screen and (max-width: 450px) {
+        padding: 16px 16px;
+        width: 100%;
+        justify-content: center;
+    }
 }
 
 </style>

@@ -9,7 +9,7 @@
         <div class="open">
             <div class="flex middle open-button" @click="isPassive = !isPassive" >
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 12H21M3 6H21M3 18H21" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 12H21M3 6H21M3 18H21" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div> 
         </div>
@@ -19,7 +19,7 @@
                 <div class="close flex ">
                     <div class="flex middle" @click="isPassive = !isPassive" >
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18 6L6 18M6 6L18 18" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18 6L6 18M6 6L18 18" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div> 
                 </div>
@@ -86,7 +86,7 @@ const OFFSET = 60
                 }
                 this.showNavbar = window.pageYOffset < this.lastScrollPosition
                 this.scrolledNav = window.pageYOffset < this.lastScrollPosition
-                this.transparent = window.pageYOffset > 200
+                this.transparent = window.pageYOffset > 60
                 this.lastScrollPosition = window.pageYOffset
             },
         }
@@ -98,11 +98,11 @@ const OFFSET = 60
 <style lang="scss">
 
 .mobile-nav {
-  height: 80px;
+  height: 64px;
   z-index: 100;
   position: fixed;
   transition: .4s ease-in-out;
-  background-color: black;
+  background-color: white;
   @media only screen and (min-width: 960px) {
     display: none;
   }
@@ -112,7 +112,7 @@ const OFFSET = 60
     align-items: center;
     .logo {
       img {
-        height: 40px;
+        height: 32px;
       }
     }
     .open {
@@ -131,7 +131,7 @@ const OFFSET = 60
     top: 0 !important;
     left: 100%;
     width: 100% !important;
-    background-color: black;
+    background-color: white;
     z-index: 100;
     transition: .4s ease-in;
     transform: translateX(-100%);
@@ -145,7 +145,6 @@ const OFFSET = 60
         width: 40px;
         justify-content: flex-end;
         align-self: flex-end;
-        background-color: black;
       }
       .mobile-links {
         display: flex; 
@@ -157,7 +156,7 @@ const OFFSET = 60
         width: 100%;
         .logo {
             img {
-                height: 64px;
+                height: 40px;
                 @media only screen and (max-width: 560px) {
                   
                 }
@@ -173,6 +172,7 @@ const OFFSET = 60
             justify-content: center;
             text-decoration: none;
             font-size: 24px;
+            color: $main-black;
           }
         }
       }
@@ -197,7 +197,7 @@ const OFFSET = 60
 }
 
 .nuxt-link-exact-active {
-  color: white ;
+  color: $main-orange !important;
 }
 
 

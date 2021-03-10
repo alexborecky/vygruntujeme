@@ -48,6 +48,30 @@
             margin: 8px 0;
         }
     }
+    @media only screen and (max-width: 1280px) {
+        width: 60%;
+        flex-flow: column;
+        .content {
+            margin-left: 0;
+            max-width: 100%;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        width: 80%;
+        flex-flow: column;
+        .content {
+            margin-left: 0;
+            max-width: 100%;
+        }
+    }
+    @media only screen and (max-width: 650px) {
+        width: 100%;
+        flex-flow: column;
+        .content {
+            margin-left: 0;
+            max-width: 100%;
+        }
+    }
 }
 
 </style>
