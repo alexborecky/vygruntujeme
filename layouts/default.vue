@@ -54,7 +54,7 @@ html {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 </style>
