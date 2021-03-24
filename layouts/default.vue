@@ -1,7 +1,7 @@
 <template>
   <div>
-    <sideBar />
-    <navigation/>
+    <sideBar :class="{'hidden' : $route.path == '/'}" />
+    <navigation :class="{'hidden' : $route.path == '/'}" />
     <nuxt />
   </div>
 </template>
@@ -52,4 +52,9 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.hidden {
+  display: none;
+}
+
 </style>
