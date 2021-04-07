@@ -227,10 +227,10 @@ export default {
       align-self: flex-start !important;
       justify-content: flex-end;
       img {
-        order: 2;
+        order: 2 !important;
       }
       .content {
-        order: 1;
+        order: 1 !important;
         text-align: right;
       }
     }

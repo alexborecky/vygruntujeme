@@ -51,6 +51,14 @@
             margin: 24px 0;
         }
     }
+    &:nth-child(even) {
+        img {
+            order: 2;
+        }
+        .content {
+            order: 1;
+        }
+    }
 }
 
 </style>
