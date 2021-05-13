@@ -9,7 +9,7 @@
           <h1>Profesionálové</h1>
           <p class="bigger">Chytrý úklid Vaší firmy.</p>
           <PrimaryButton 
-            link="/"
+            link="#kontakt"
             content="Chci uklidit!"
           />
         </div>
@@ -59,7 +59,7 @@
           :src="partners.logo" alt="">
         </div>
       </div>
-      <div class="contact flex column center full-width id-section">
+      <div class="contact flex column center full-width id-section" id="kontakt">
         <h2 class="flex center column">Kontaktujte nás <div class="underline"></div></h2>
         <a class="email" href="mailto:info@vygruntujeme.cz">info@vygruntujeme.cz</a>
       </div>
@@ -70,8 +70,7 @@
         <div class="about">
           <h3>O nás</h3>
           <ul>
-            <li><nuxt-link to="/dezinfekce">Dezinfekce</nuxt-link></li>
-            <li><nuxt-link to="/kariera">Nabídka práce</nuxt-link></li>
+            <!-- <li><nuxt-link to="/dezinfekce">Dezinfekce</nuxt-link></li> -->
             <li>
               <a class="flex center" target="blank" href="https://vygruntujeme-eshop.cz">
                         E-shop 
@@ -293,7 +292,7 @@ export default {
         margin: 8px 0;
       }
       a {
-        color: $main-black;
+        color: rgba($color: $main-black, $alpha: .72)
       }
     }
     .about {

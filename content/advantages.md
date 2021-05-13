@@ -19,12 +19,12 @@ advantages: [
     {
         img: 'https://ik.imagekit.io/alexborecky/CzechCon/vygruntujeme/img04_dRb2Pyc7d2Mv_.png',
         title: 'Žádné komplikované smlouvy',
-        text: 'Máte na výbě z úklidu: jednorázově, každý týden, měsíčně, nebo individuální plán. Vy rozhodnete kdy přijde hospodyně. Stačí jednoduchá objednávka. Službu můžete ukončit 24 hodin předem.'
+        text: 'Máte na výběr z úklidu: jednorázově, každý týden, měsíčně, nebo individuální plán. Vy rozhodnete kdy přijde hospodyně. Stačí jednoduchá objednávka. Službu můžete ukončit 24 hodin předem.'
     },
     {
         img: 'https://ik.imagekit.io/alexborecky/CzechCon/vygruntujeme/img05_9fTkev8Qdu.png',
         title: 'Bezpečí a jistota',
-        text: 'Dbáme Na kvalitu a přesto se vždy může něco stát. Proto, v případě poškození, jsme pojištěni do výše 10 milionů Kč.'
+        text: 'Dbáme na kvalitu a přesto se vždy může něco stát. Proto, v případě poškození, jsme pojištěni do výše 10 milionů Kč.'
     },
     {
         img: 'https://ik.imagekit.io/alexborecky/CzechCon/vygruntujeme/img06_lGc1MmBjuQ.png',
